@@ -11,3 +11,16 @@ function handleClick()
 
 document.querySelector("button").addEventListener("click", function(){
       alert("I got clicked!");})
+
+
+//for all buttons
+
+
+for(var i=0; i<document.querySelectorAll(".drum").length; i++)
+{
+    document.querySelector("button").addEventListener("click", function(){
+      alert("I got clicked!");})
+}
+    
+    
+
