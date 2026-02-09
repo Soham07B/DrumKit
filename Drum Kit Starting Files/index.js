@@ -18,9 +18,10 @@ document.querySelector("button").addEventListener("click", function(){
 
 for(var i=0; i<document.querySelectorAll(".drum").length; i++)
 {
-    document.querySelector("button").addEventListener("click", function(){
+    document.querySelector(".drum")[i].addEventListener("click", function(){
       alert("I got clicked!");})
 }
     
     
+
 
